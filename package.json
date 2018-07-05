@@ -1,0 +1,23 @@
+{
+  "name": "mw-sir",
+  "version": "0.0.0",
+  "description": "misao writing about state in react.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html -d .dist --cache-dir .dist/.cache --open"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redam": "^0.0.5",
+    "redux": "^4.0.0",
+    "rxjs": "^6.2.1",
+    "undux": "^4.7.1",
+    "unistore": "^3.0.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.4"
+  }
+}
