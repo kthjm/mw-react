@@ -1,6 +1,8 @@
-# mw-sir
+# misao writing about state management
 
-- [`redux`](https://github.com/reduxjs/redux)
-- [`undux`](https://github.com/bcherny/undux)
-- [`redam`](https://github.com/chooslr/redam)
-- [`unistore`](https://github.com/developit/unistore)
+- [`chooslr/redam`](https://github.com/chooslr/redam)
+- [`reduxjs/redux`](https://github.com/reduxjs/redux)
+- [`bcherny/undux`](https://github.com/bcherny/undux)
+- [`developit/unistore`](https://github.com/developit/unistore)
+- [`vuejs/vue`](https://github.com/vuejs/vue)
+- [`vuejs/vuex`](https://github.com/vuejs/vuex)

@@ -1,7 +1,7 @@
 {
-  "name": "mw-sir",
+  "name": "mw-smgt",
   "version": "0.0.0",
-  "description": "misao writing about state in react.",
+  "description": "misao writing about state management.",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -15,7 +15,9 @@
     "redux": "^4.0.0",
     "rxjs": "^6.2.1",
     "undux": "^4.7.1",
-    "unistore": "^3.0.6"
+    "unistore": "^3.0.6",
+    "vue": "^2.5.16",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.9.4"
