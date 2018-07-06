@@ -1,14 +1,11 @@
 import Vue from 'vue/dist/vue.esm.js'
 import Vuex from 'vuex'
+import ComponentAsFile from './vue.Component.vue'
 import { margin, appStyle } from './.var.js'
 
-const vueAppStyle =
-Object
-.keys(appStyle)
-.map(key => `${key}:${appStyle[key]};`)
-.join('')
+const vueAppStyle = Object.keys(appStyle).map(key => `${key}:${appStyle[key]};`).join('')
 
-const Consumer = {
+const ComponentAsObj = {
   props: ['margin'],
   computed: {
     count() {
@@ -41,8 +38,16 @@ new Vue({
     state: { count: 0 },
     mutations: { increment: (state, payload) => state.count = state.count + payload }
   }),
-  components: { Consumer },
-  template: `<div style="${vueAppStyle}"><Consumer margin="${margin}" /></div>`,
+  components: {
+    ComponentAsObj,
+    ComponentAsFile
+  },
+  template: `
+  <div style="${vueAppStyle}">
+    <ComponentAsObj margin="${margin}" />
+    <ComponentAsFile margin="${margin}" />
+  </div>
+  `,
   beforeCreate: function() {},
   created: function() {},
   beforeMount: function() {},

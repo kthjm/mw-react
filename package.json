@@ -17,9 +17,12 @@
     "undux": "^4.7.1",
     "unistore": "^3.0.6",
     "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.9.4"
+    "@vue/component-compiler-utils": "^2.1.0",
+    "parcel-bundler": "^1.9.4",
+    "vue-template-compiler": "^2.5.16"
   }
 }

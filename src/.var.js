@@ -4,5 +4,5 @@ export const appStyle = {
   maxWidth: 500,
   margin: 'auto',
   textAlign: 'center',
-  fontSize: '0.8em'
+  fontSize: '0.6em'
 }
